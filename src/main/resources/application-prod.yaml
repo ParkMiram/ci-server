@@ -4,7 +4,7 @@ spring:
     name: ci-server
   datasource:
     url: jdbc:mysql://mysql:3306/boards?&serverTimezone=Asia/Seoul
-    username: ${user}
+    username: ${username}
     password: ${password}
   jpa:
     hibernate:
