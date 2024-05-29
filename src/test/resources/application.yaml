@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ci-server
+  datasource:
+    url: jdbc:h2:mem:test
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create
