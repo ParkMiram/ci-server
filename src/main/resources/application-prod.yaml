@@ -3,7 +3,7 @@ spring:
   application:
     name: ci-server
   datasource:
-    url: jdbc:mysql://10.128.0.7:3308/ms?&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://10.128.0.7:3308/boards?&serverTimezone=Asia/Seoul
     username: ${username}
     password: ${password}
   jpa:
